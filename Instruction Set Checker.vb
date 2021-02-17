@@ -14,9 +14,9 @@
 
     Private Sub ButtonCheck_Click(sender As Object, e As EventArgs) Handles ButtonCheck.Click
         If SSEAVX() Then
-            MsgBox("True")
+            MsgBox("Your PC support AVX Instruction Set")
         Else
-            MsgBox("False")
+            MsgBox("Your PC only support SSE Instruction Set")
         End If
     End Sub
 End Class
